@@ -1,0 +1,178 @@
+body{
+  background: #000;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-title{
+  font-size: 50px;
+  font-family: SF Pro Display;
+  color: #fff;
+  padding-left: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+
+.project{
+  justify-content: center;
+  align-items: center;
+}
+
+.project-expl{
+  font-size: 250px;
+  font-family: SF Pro Display;
+  color: #fff;
+  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-expl2{
+  font-size: 50px;
+  font-family: SF Pro Display;
+  color: #fff;
+  padding-left: 30px;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.developer-intro{
+  font-size: 50px;
+  font-family: SF Pro Display;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 200px;
+}
+
+.developer-credits {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  padding-top: 50px;
+
+}
+
+.developer{
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.dev-image{
+  border-radius: 200px;
+}
+
+.dev-name{
+  font-size: 50px;
+  font-family: SF Pro Display;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+
+.role {
+  font-size: 20px;
+  font-family: SF Pro Rounded;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+.social-media-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.proj{
+  color: #fff;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: SF Pro Display;
+  padding-top: 100px;
+}
+
+.current-projects{
+  font-family: SF Pro Display;
+  padding-top: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-coming-soon{
+  color: #fff;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.beta{
+  padding-left: 30px;
+  font-size: 70px;
+  background: -webkit-linear-gradient(#090979, #00d4ff);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.company-ig {
+  color: #fff;
+  font-family: SF Pro Display;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.ig{
+  color: #fff;
+  font-family: SF Pro Display;
+  font-size: 50px;
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.company-social-media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
