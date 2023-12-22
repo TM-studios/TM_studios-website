@@ -2,4 +2,4 @@
 Codice sorgente del sito della TM studios.
 
 # Link al sito
-[](https://tm-studios.github.io/TM_studios-website/)
+[https://tm-studios.github.io/TM_studios-website/](https://tm-studios.github.io/TM_studios-website/)
