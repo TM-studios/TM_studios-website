@@ -29,6 +29,17 @@ body{
   padding-top: 100px;
 }
 
+@media only screen and (max-width: 600px) {
+  .cover {
+    padding: 0 20px; /* Aggiunge padding a sinistra e destra per schermi più piccoli */
+  }
+
+  .image {
+    width: 80%; /* Riduci la larghezza dell'immagine per schermi più piccoli */
+    padding-top: 50px; /* Riduci il padding superiore per schermi più piccoli */
+  }
+}
+
 
 .project{
   justify-content: center;
@@ -36,31 +47,49 @@ body{
 }
 
 .project-expl{
-  font-size: 250px;
+  font-size: 150px;
   font-family: sans-serif;
-  color: #fff;
+  color: #a2231d;
   padding-left: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: -20px;
 }
 
 .project-expl2{
-  font-size: 50px;
+  font-size: 40px;
   font-family: sans-serif;
   color: #fff;
   padding-left: 30px;
-  text-align: justify;
+  /* text-align: justify; */
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: -40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .project {
+    padding: 0 20px; /* Aggiunge padding a sinistra e destra per schermi più piccoli */
+  }
+
+  .project-expl {
+    font-size: 65px; /* Riduci la dimensione del font per schermi più piccoli */
+    padding-left: 0; /* Rimuovi il padding sinistro per schermi più piccoli */
+  }
+
+  .project-expl2 {
+    font-size: 30px; /* Riduci la dimensione del font per schermi più piccoli */
+    padding-left: 0; /* Rimuovi il padding sinistro per schermi più piccoli */
+  }
 }
 
 
 .developer-intro{
-  font-size: 50px;
+  font-size: 65px;
   font-family: sans-serif;
-  color: #fff;
+  color: #cda434;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -76,14 +105,37 @@ body{
 
 }
 
-.developer{
-  padding: 20px;
-  justify-content: center;
-  align-items: center;
+
+@media only screen and (max-width: 600px) {
+  .developer-credits {
+    flex-direction: column; /* Imposta il layout delle colonne per schermi più piccoli */
+  }
+
+  .developer {
+    margin-bottom: 70px; /* Aggiunge spazio tra le immagini quando sono in modalità verticale */
+  }
 }
 
-.dev-image{
+.developer{
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px
+}
+
+.dev-image-TheiPhoneDev{
   border-radius: 200px;
+  box-shadow: 0 0 100px #FF0000;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.dev-image-mantux{
+  border-radius: 200px;
+  box-shadow: 0 0 100px #FFFF00;
+  width: 300px;
+  margin: 0 auto;
 }
 
 .dev-name{
@@ -93,17 +145,19 @@ body{
   justify-content: center;
   align-items: center;
   display: flex;
+  margin-top: 10px; /* Aggiunge un po' di spazio sopra il nome */
 }
 
 
 
 .role {
-  font-size: 20px;
+  font-size: 25px;
   font-family: sans-serif;
   color: #fff;
   justify-content: center;
   align-items: center;
   display: flex;
+  margin-top: 5px; /* Aggiunge un po' di spazio sopra il ruolo */
 }
 
 
@@ -111,6 +165,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10px; /* Aggiunge un po' di spazio sopra l'icona sociale */
 }
 
 
@@ -122,6 +177,12 @@ body{
   align-items: center;
   font-family: sans-serif;
   padding-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .developer {
+    margin-bottom: 30px; /* Aggiunge spazio tra le colonne quando sono in modalità verticale */
+  }
 }
 
 .current-projects{
@@ -137,6 +198,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: -40px;
 }
 
 
@@ -151,6 +213,7 @@ body{
  justify-content: center;
  align-items: center;
 }
+
 
 
 .company-ig {
@@ -168,6 +231,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 
@@ -175,4 +239,52 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .proj {
+    font-size: 50px; /* Riduci la dimensione del font per schermi più piccoli */
+    padding-top: 50px; /* Riduci il padding superiore per schermi più piccoli */
+  }
+
+  .current-projects {
+    padding-top: 50px; /* Riduci il padding superiore per schermi più piccoli */
+  }
+
+  .project-coming-soon {
+    font-size: 50px; /* Riduci la dimensione del font per schermi più piccoli */
+    margin-bottom: -20px; /* Riduci lo spazio inferiore per schermi più piccoli */
+  }
+
+  .beta {
+    font-size: 40px; /* Riduci la dimensione del font per schermi più piccoli */
+  }
+
+  .company-ig {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+  }
+  
+  .ig{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 40px;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+  
+  
+  .company-social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
 }
