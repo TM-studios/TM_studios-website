@@ -90,8 +90,13 @@ body{
     padding-left: 0; /* Rimuovi il padding sinistro per schermi più piccoli */
   }
 
-  .project-expl2 {
-    font-size: 30px; /* Riduci la dimensione del font per schermi più piccoli */
+  .project-exp2 {
+    font-size: 40px; /* Riduci la dimensione del font per schermi più piccoli */
+    padding-left: 0; /* Rimuovi il padding sinistro per schermi più piccoli */
+  }
+
+  .project-exp3 {
+    font-size: 40px; /* Riduci la dimensione del font per schermi più piccoli */
     padding-left: 0; /* Rimuovi il padding sinistro per schermi più piccoli */
   }
 }
