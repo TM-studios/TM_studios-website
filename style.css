@@ -57,7 +57,18 @@ body{
   margin-bottom: -20px;
 }
 
-.project-expl2{
+.project-exp2{
+  font-size: 40px;
+  font-family: sans-serif;
+  color: #fff;
+  padding-left: 30px;
+  /* text-align: justify; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -40px;
+}
+.project-exp3{
   font-size: 40px;
   font-family: sans-serif;
   color: #fff;
